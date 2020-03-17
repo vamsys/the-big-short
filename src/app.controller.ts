@@ -14,7 +14,7 @@ export class AppController {
   @Post('/get-big')
   public async getTheBigWord(@Req() req: Request, @Res() res: Response): Promise<any> {
       const sentence = req.body['sentence'];
-      return res.status(HttpStatus.OK).send(this.appService.getBidWord(sentence));
+      return res.status(HttpStatus.OK).send(this.appService.getBigWord(sentence));
   }
 
   @All('/get-short')

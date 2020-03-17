@@ -20,6 +20,9 @@ $ yarn start:dev
 ## Test
 
 ```bash
+# service tests
+$ yarn test
+
 # controller tests
 $ yarn test:e2e
 ```
