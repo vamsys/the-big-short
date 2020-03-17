@@ -14,7 +14,7 @@ $ yarn install
 
 ```bash
 # watch mode runs on http://localhost:3000
-$ npm run start:dev
+$ yarn start:dev
 ```
 
 ## Test
