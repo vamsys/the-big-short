@@ -20,10 +20,7 @@ $ yarn start:dev
 ## Test
 
 ```bash
-# unit tests
-$ yarn test
-
-# e2e tests
+# controller tests
 $ yarn test:e2e
 ```
 
